@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>WeatherBus - Registo</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="registo.js"></script>
+    <link rel="icon" href="./imagens/weatherbus.png">
+
+    <style>
+        .padding-0 {
+            padding-right: 0;
+            padding-left: 0
+        }
+
+        ;
+
+        .lightgrey {
+            background-color: lightgrey
+        }
+
+        ;
+    </style>
+</head>
+
+<body style="background-color: #93b8e9">
+    <div class="containter">
+
+        <div class="card bg-primary mx-auto" style="width:30%; height:50%; margin-top:15%">
+
+            <h4 class="text-center text-white mt-3">Registo</h4>
+            <form id="formRegisto" class="was-validated" action="#">
+                <div class="form-group">
+                    <div class="row w-75 mx-auto mt-3">
+                        <div class="col col-sm-auto border rounded bg-primary">
+                            <i class="fa fa-user fa-lg" style="color:white" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10 col-sm-auto ml-2 padding-0" style="width:70%">
+                            <input type="text" class="form-control" id="inputNome" placeholder="Nome" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="row w-75 mx-auto mt-4">
+                        <div class="col col-sm-auto border rounded bg-primary">
+                            <i class="fa fa-at fa-lg" style="color:white" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10 col-sm-auto ml-2 padding-0" style="width:70%">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="row w-75 mx-auto mt-4">
+                        <div class="col col-sm-auto border rounded bg-primary">
+                            <i class="fa fa-hashtag fa-lg" style="color:white" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10 col-sm-auto ml-2 padding-0" style="width:70%">
+                            <input type="text" class="form-control" id="inputNumero" placeholder="Número de aluno" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="row w-75 mx-auto mt-4">
+                        <div class="col col-sm-auto border rounded bg-primary">
+                            <i class="fa fa-key fa-lg" style="color:white" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10 col-sm-auto ml-2 padding-0" style="width:70%">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="row w-75 mx-auto mt-4">
+                        <div class="col col-sm-auto border rounded bg-primary">
+                            <i class="fa fa-repeat fa-lg" style="color:white" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10 col-sm-auto ml-2  padding-0" style="width:70%">
+                            <input type="password" class="form-control" id="inputConfirmarPassword" placeholder="Confirmar Password" required>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-warning  w-25 mb-4 mt-3" id="btnRegistar" style="margin-left:15%">Registar</button>
+                <button class="btn btn-warning  w-25 mb-4 mt-3" style="margin-left:10%" id="btnVoltar">Voltar
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
